@@ -31,7 +31,7 @@ a, a:hover, a:focus {
     margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     max-width: 200px;
-    position: absolute;
+    position: fixed;
     bottom: 1rem;
     right: 1rem;
 
@@ -144,6 +144,18 @@ ul ul a {
     flex-wrap: wrap;
 }
 
+/* #content_about_page {
+    width: calc(100% - 250px);
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+ 
+  
+} */
+
 .content-intro {
     display: flex;
     align-items: center;
@@ -186,10 +198,16 @@ MISCELLA
 .contact-links:hover {
     color: red;
 }
+#quote_about_page {
+    margin-right: 3em;
+}
 
 
+/******************************/
 
-
+#about_page_silly {
+    width: 200px;
+}
 
 
 
@@ -213,6 +231,13 @@ MISCELLA
     #content.active {
         width: calc(100% - 250px);
     }
+    #content_about_page {
+        width: 100%;
+    }
+    #content_about-page.active {
+        width: calc(100% - 250px);
+    }
+
     #sidebarCollapse span {
         display: none;
     }

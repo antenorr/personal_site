@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,29 @@
     <title>Roudy Portfolio</title>
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
     <!-- Our Custom CSS ./css/main.css-->
     <link rel="stylesheet" href="css/main.css">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 </head>
+
 <body>
-    
+
     <div class="wrapper">
         <!-- Sidebar Holder -->
-        <nav id="sidebar" >
+        <nav id="sidebar">
             <div class="sidebar-header">
                 <h3>Roudy Antenor</h3>
                 <h5>The Dreamer</h5>
             </div>
-    
+
             <ul class="list-unstyled components">
                 <p>Dummy Heading</p>
-                <li class="active">
-                    <a  href="#">HOME</a>
+                <li>
+                    <a href="./index.html">HOME</a>
                 </li>
                 <li>
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Portfolio</a>
@@ -42,21 +47,21 @@
                     </ul>
                 </li>
 
-                <li>
+                <li >
                     <a href="./about.html">About</a>
                 </li>
-                <li>
-                    <a href="./contact.html">Contact</a>
+                <li class="active">
+                    <a href="./contact.html" >Contact</a>
                 </li>
             </ul>
         </nav>
-    
+
         <!-- Page Content Holder -->
         <div id="content">
-    
+
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
-    
+
                     <div class="navbar-header">
                         <button style="background: linear-gradient(to right, #2236e6, #e74c3c);" type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
                             <i class="glyphicon glyphicon-align-left"></i>
@@ -72,26 +77,27 @@
             <div class="content-intro">
                 <div class="content-intro__script content-intro__margin-right-4">
                     <p>
-                        My name is Roudy.  I am a Javascript, API and real-time communication enthusiast and have studied front-end development
-                        technologies for 2 years.
+                        <i class="far fa-envelope icon-margin" style="color: #bd2c00;"></i> I can be reached by email: <span style="color: red;">roudyantenor@gmail.com</span>
                     </p>
                     <p>
-                        Prior to changing careers, I worked as an insurance claim adjuster in Florida while running a web design and social marketing
-                        firm called X|O Webdesign & Marketing.
+                        <i class="fab fa-linkedin-in icon-margin" style="color: #0077B5;"></i> My Professional LinkedIn profiled: <a href="https://www.linkedin.com/in/roudy-antenor-b9376290/" target="_blank"><span class="contact-links">Roudy Antenor</span></a></a>
                     </p>
                     <p>
-                        I currently hold a boot camp Course Assistant position with Trilogy Education at the Columbia University location. I love
-                        to cook healthy meals and photography is my hobby.
+                    <i class="fab fa-twitter icon-margin" style="color: #1DA1F2;"></i> My Twitter Handle is: <a href="https://twitter.com/thekidroudy?lang=en" target="_blank"><span class="contact-links">@thekidroudy</span></a>
+                    </p>
+                    <p>
+                        <i class="fab fa-github icon-margin" style="color: #333;"></i>   My Github Profile: <a href="https://github.com/antenorr" target="_blank"><span class="contact-links">antenorr</span></a>
+                         
                     </p>
                 </div>
-                 <div>
-                     <img style="border-radius: 50%;"src="./assets/rude.jpg" alt="">
-                 </div>
+                <div>
+                    <img style=" border-radius: 50%; margin-top: 2rem;" src="./assets/rude.jpg" alt="">
+                </div>
 
             </div>
 
         </div>
-       
+
     </div>
 
 
@@ -104,4 +110,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
